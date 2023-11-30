@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+}
+
+.slider {
+  height: 1000px;
+  width: 1900px;
+  background: url(nature_green1.jpg);
+  animation: change-bg 10s linear infinite;
+}
+
+@keyframes change-bg {
+  0% {
+    background: url(nature_green1.jpg);
+  }
+  20% {
+    background: url(nature_green1.jpg);
+  }
+  25% {
+    background: url(forest2.jpg);
+  }
+  40% {
+    background: url(forest2.jpg);
+  }
+  45% {
+    background: url(nature3.jpg);
+  }
+  65% {
+    background: url(nature3.jpg);
+  }
+  70% {
+    background: url(tree4.jpg);
+  }
+  80% {
+    background: url(tree4.jpg);
+  }
+  85% {
+    background: url(nature_tree5.jpg);
+  }
+  100% {
+    background: url(nature_tree5.jpg);
+  }
+}
